@@ -102,7 +102,8 @@ header {
     background-color: rgba(100, 100, 100, 1);
     padding: 20px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 15px;
+    padding: 15px;
     color: rgb(235, 232, 232);
     
 }
@@ -220,7 +221,8 @@ header {
     display: flex;
     font-size: 60px;
     font-family: 'Josefin Slab', Arial, sans-serif;
-    width: 70%;
+    font-weight: 400;
+    width: 90%;
     margin-top: 20px;
     text-align: center;
 }
@@ -234,8 +236,9 @@ header {
 
 .welcome > h4 {
     display: flex;
-    font-size: 24px;
+    font-size: 28px;
     font-family: 'Josefin Slab', arial, sans-serif;
+    font-weight: 700;
 }
 
 .text {
