@@ -3,8 +3,8 @@
 /*  INDEX CSS : */ 
 
 /* 1. Général */ 
-    /* a. Nav Bar */
-    /* b. Footer */ 
+/*     a. Nav Bar       */
+/*     b. Footer        */ 
 
 /* 2. Accueil */ 
 /*     a. Hero Banner  */
@@ -12,6 +12,22 @@
 /*     c. Central      */
 /*     d. Side Bar     */
 
+/* 3. Contact */ 
+/*     a. Central Subtitle  */
+/*     b. Contact Form      */
+/*     c. Bouton Envoyer    */ 
+
+
+/* 4. Nous trouver */ 
+/*     a. Général           */
+/*     b. Map               */
+
+/* 5. Booking */
+/*     a. Général           */
+/*    
+
+
+/* ------------------------------------------------------------------------- */
 
    /* 1. Général */ 
 /* --------------------------------------------------- */    
@@ -350,7 +366,135 @@ header {
 
 /* -------------------------------------------------------- */
 
+/* 3. Contact */ 
 
+    /* a. General */ 
 
+.contactCentralSubtitle {
+    display: flex;
+    justify-content: center;
+    width: auto;
+   
+}
 
+.contactCentralSubtitle h3 {
 
+    font-size: 64px;
+    font-family: 'Josefin Slab', arial, sans-serif;
+    margin-top: 30px;
+    font-weight: 400;
+
+}
+
+#subtitleHr {
+    display: flex;
+    width: auto;
+    justify-content: center;
+    margin: 20px 100px;
+}
+
+    /* b. Formulaire */ 
+
+.formContact {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+    padding-bottom: 30px;
+    background-color:rgb(196, 196, 196,0.1);
+    border-radius: 5px;
+}
+
+.formContact > form p {
+    font-family: 'Josefin Slab', arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.formContact > form input {
+    height: 30px;
+    width: 350px;
+}
+
+    /* c. Bouton Envoyer */ 
+
+#submitBtn {
+    margin-top: 20px;
+    width: 60px;
+    height: auto;
+    border-radius: 3px;
+    border: 2px solid rgba(51,51,51,1);
+    background-color: rgba(255,255,255);
+    color: rgba(51,51,51,1);
+    width: 380px;
+    font-size: 24px;
+    font-family: 'Josefin Slab', arial, sans-serif;
+    font-weight: 400;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#submitBtn:hover {
+    background-color: rgba(51,51,51,1);
+    color: rgba(255,255,255);
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------*/
+
+/* 4. Nous trouver */ 
+
+    /* a. Général */ 
+
+.foundCentralSubtitle {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.foundCentralSubtitle h3 {
+    font-size: 64px;
+    font-family: 'Josefin Slab', arial, sans-serif;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+#foundText {
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Slab', arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+    /* b. Map */ 
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* ------------------------------------------------------------------- */
+
+/* 5. Booking */
+
+    /* a. Général */ 
+
+.bookingCentralSubtitle {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.bookingCentralSubtitle h3 {
+    font-size: 64px;
+    font-family: 'Josefin Slab', arial, sans-serif;
+    margin-top: 30px;
+    font-weight: 400;
+}

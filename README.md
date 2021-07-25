@@ -4,6 +4,10 @@
 - Ajout feed Instagram
 - Menu déroulant 
 - Logos Social Medias
+- Pages
+- Formulaire Contact
+- Google Map 
+- Construction booking page
 -----------------------------------------------------------
 19/07/2021
 - Création index.html + CSS 
