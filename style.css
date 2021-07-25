@@ -7,7 +7,10 @@
     /* b. Footer */ 
 
 /* 2. Accueil */ 
-/*     a.  */
+/*     a. Hero Banner  */
+/*     b. Main         */
+/*     c. Central      */
+/*     d. Side Bar     */
 
 
    /* 1. Général */ 
@@ -79,9 +82,15 @@ header {
     display: block;
     width: auto;
     justify-content: space-between;
-    
-    
 }
+
+.menu ul li {
+    float: none;
+    width: auto;
+    text-align:center;
+    position: relative;
+}
+
 
 .menu ul {
     display: flex;
@@ -95,20 +104,60 @@ header {
     display: inline;
     margin: 10px 20px;
     font-family: 'Josefin Slab', arial, sans-serif;
+    font-size: 24px;
+}
+
+/* Menu déroulant */ 
+
+.sous {
+    display: none !important;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: auto;
+    z-index: 2000;
+   
+}
+
+.sous li  {
+    float: none;
     font-size: 20px;
+    display:inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin:0;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left:2px;
+    padding-right:2px;
 }
 
-.menu li :hover {
-    background-color: rgba(100, 100, 100, 1);
-    padding: 20px;
-    cursor: pointer;
-    border-radius: 15px;
-    padding: 15px;
-    color: rgb(235, 232, 232);
-    
+.sous a {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
 }
 
-/* a. Footer */
+.sous a:hover {
+    border-bottom: none;
+}
+
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 10px;
+
+}
+
+.menu > ul .deroulant:hover .sous {
+    display: block !important;
+
+}
+
+/* -------------------------------------------------------------*/
+/* b. Footer */
 
 .footer {
     display: flex;
@@ -116,8 +165,6 @@ header {
     height: 50px;
     background-color: rgba(51,51,51,1);
     align-content: center;
-    
-
 }
 
 .footer  ul {
@@ -126,9 +173,6 @@ header {
     width: 100%;
     height: auto;
     justify-content: center;
-    
-   
-    
 }
 
 .footer  li {
@@ -140,7 +184,6 @@ header {
     font-weight: 400;
     color: rgb(196, 196, 196);
     align-self: center;
-    
 }
 
 .footer a {
@@ -267,6 +310,42 @@ header {
     justify-content: center;
     margin-bottom: 50px;
 }
+
+/* d. Side bar */
+
+.sidebar {
+    z-index: 2;
+    width: auto;
+    max-height: 1500px;
+   
+
+}
+
+.pixlee_lightbox_frame {
+    justify-content: center;
+    display: flex;
+}
+
+#pixlee_container{
+    margin-top:-50px;
+    display: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    background-color:rgb(255,255,255);
+    margin-left: 20px;
+    padding: 50px 50px;
+}
+
+#pixlee_container h2 {
+    display: flex;
+    font-family: 'Josefin Slab', arial, sans-serif;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
 
 
 /* -------------------------------------------------------- */
